@@ -1,0 +1,70 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+body {
+    font: 20px 'Inter', sans-serif;
+    min-height: 100vh;
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    padding: 1rem;
+}
+
+.card {
+    /* scroll-margin-top: 8rem; */
+    width: min(100%, 375px);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 1rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin: auto;
+}
+
+.card figure {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card figcaption {
+    font: 25px 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 1rem;
+    text-align: center;
+}
+
+.card p {
+    font: 18px 'Inter', sans-serif;
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin: 1rem;
+    text-align: center;
+}
