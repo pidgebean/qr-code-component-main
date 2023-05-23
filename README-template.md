@@ -14,8 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This challenge is to build out this QR code component and get it looking as close to the design as possible. The website can't actually do anything, and is just a simple HTML and CSS project.
